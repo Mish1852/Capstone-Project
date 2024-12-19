@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F2F6F5;
+    color: black;
+}
+.head-main {
+    display: flex;
+    justify-content: center; /* Center-aligns the content */
+    width: 100%; /* Full width of the page */
+    padding: 24px 0; /* Adds vertical padding */
+    background-color: #F2F2F2; /* Light gray background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow under the header */
+}
+
+/* Inner container for header sections */
+.head1 {
+    display: flex;
+    justify-content: space-between; /* Space between navigation and title */
+    align-items: center; /* Center-aligns items vertically */
+    width: 90%; /* Restricts width to avoid edge overflow */
+    max-width: 1344px; /* Ensures header doesn’t get too wide */
+}
+
+/* Left and right navigation */
+.head2,
+.head4 {
+    display: flex;
+    gap: 20px; /* Adds space between navigation links */
+    font-family: "Gothic A1", sans-serif; /* Sets the font */
+    font-size: 17px; /* Font size for navigation links */
+    font-weight: 400; /* Regular weight */
+    line-height: 24px; /* Adjusts line spacing */
+}
+
+/* Logo or title */
+.head3 {
+    font-family: "Abyssinica SIL", serif; /* Sets the font for the title */
+    font-size: 42px; /* Large font size for the logo */
+    font-weight: 400; /* Regular weight */
+    letter-spacing: -0.04em; /* Slightly tightens spacing */
+    text-align: center; /* Centers the text */
+    color: #000000; /* Black text color */
+}
+
+.landing_page{
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+.landing_page h1{
+    font-family: BIZ UDPMincho;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    
+}
+
+.landing_page img{
+
+    width: 1500px;
+    height: 672px;
+    gap: 0px;
+    border-radius: 22px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 7vw;
+    height: 130vh;
+}
+
+.project{
+    margin: 0 2vw;
+    
+}
+.project img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.i{
+    height: 32vh;
+    width: 41vw;
+}
+.project h3 {
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;  
+    font-weight: 200;
+
+    
+}
+.project p {
+    font-family: Gothic A1;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #00000099;
+    ;
+
+
+}
+
+.caption {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin: 0 auto; 
+    margin-bottom: 10vw;
+    width: 900px;
+    height: 260px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 1; 
+}
+
+.caption h3 {
+    font-family: BIZ UDPMincho;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center; 
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: Fill (1,344px)px;
+    height: Hug (168px)px;
+    padding: 96px 0px 24px 0px;
+    gap: 24px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+    
+
+}
+.footer h3{
+    font-family: BIZ UDPMincho;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+
+}
+
+
+#form{
+
+font-family: 'Archivo';
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 5rem;
+    padding: 48px 48px 48px 48px;
+    gap: 96px;
+    opacity: 0px;
+    margin-bottom: 10rem;
+    
+}
+
+
+.box {
+    display: flex; 
+    justify-content: center; 
+    gap: 12px;
+    margin: 0 auto; 
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px; 
+    height: 64px; 
+    border-radius: 8px; 
+    border: 1px solid #000000; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #000000; 
+    background-color: #FFFFFF; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.footer input[type="submit"] {
+    margin-top: 16px; 
+    padding: 8px 16px; 
+    border-radius: 8px; 
+    border: none; 
+    background-color: #19332D; 
+    color: #FFFFFF; 
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.footer input[type="submit"]:hover {
+    background-color: #14564A; 
+}
+
+.footer #skip {
+    margin-top: 10px;
+    background: none; 
+    border: none; 
+    color: #19332D; 
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    
+    text-underline-position: from-font;
+}
+input[type='submit']:hover{
+    background-color: red;
+    box-shadow:grey;
+    transform: scale(1.1);
+}
+
+
+
+
+#skip{
+    margin-top: 1rem;
+    color: rgba(36, 25, 243, 1);
+    
+
+
+font-size: small;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+
+
+.page-footer{
+display: flex;
+justify-content: space-between;
+margin: 2vh 2vw 2vh 2vw;
+
+}
+#follow{
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    
+
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+#follow:hover{
+    transform: scale(1.1);
+    color:orange;
+
+}
+
+#future{
+    font-family: BIZ UDPMincho;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #00000099;
+    ;
+
+
+}
